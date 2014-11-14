@@ -68,10 +68,12 @@
 						<div class="col-sm-8 col-sm-offset-2 divide text-center">
 							<p class="lead divide">Conecta tu tienda Shopify<br>con el líder Español en mensajería:<br><strong>SEUR</strong></p>
 							<div class="sign-in">
-								<form class="form-inline" role="form" action="#">
+								<form accept-charset="UTF-8" class="form-inline" role="form" action="http://app.seur-shopify.com/login" method="post">
 									<div class="form-group">
+										<input name="utf8" type="hidden" value="&#x2713;" />
+										<input name="authenticity_token" type="hidden" value="LjAO+Y//MASItlcoxW6hBH6z3sP8wokv43UnFGEVUbs=" />
 										<label class="sr-only" for="email">Introduce la URL de tu tienda Shopify</label>
-										<input type="email" class="form-control input-lg" id="email" placeholder="URL de tu tienda Shopify">
+										<input type="text" class="form-control input-lg" id="shop" name="shop" placeholder="URL de tu tienda Shopify">
 									</div>
 									<button type="submit" class="btn btn-lg">Conectar</button>
 								</form>

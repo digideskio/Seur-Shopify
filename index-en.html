@@ -68,10 +68,12 @@
 						<div class="col-sm-8 col-sm-offset-2 divide text-center">
 							<p class="lead divide">Connect your Shopify store<br>with the most popular carrier in Spain:<br><strong>SEUR</strong></p>
 							<div class="sign-in">
-								<form class="form-inline" role="form" action="#">
+								<form accept-charset="UTF-8" class="form-inline" role="form" action="http://app.seur-shopify.com/login" method="post">
 									<div class="form-group">
+										<input name="utf8" type="hidden" value="&#x2713;" />
+										<input name="authenticity_token" type="hidden" value="LjAO+Y//MASItlcoxW6hBH6z3sP8wokv43UnFGEVUbs=" />
 										<label class="sr-only" for="email">Your Shopify Store URL</label>
-										<input type="email" class="form-control input-lg" id="email" placeholder="Your Shopify Store URL">
+										<input type="text" class="form-control input-lg" id="shop" name="shop" placeholder="Your Shopify Store URL">
 									</div>
 									<button type="submit" class="btn btn-lg">Connect</button>
 								</form>
