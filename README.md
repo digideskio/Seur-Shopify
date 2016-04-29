@@ -1,4 +1,4 @@
 Seur-Shopify
 ============
 
-Static Page for seur-shopify.com
+Static Page for http://seur-shopify.com
